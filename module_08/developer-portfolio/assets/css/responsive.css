@@ -3,6 +3,55 @@
 }
 /* Mobile Devices */
 @media screen and (max-width: 576px){
+
+    header {
+        width: 100%;
+        position: static;
+        padding: 10px;
+        background-color: #FFF8F3;
+    }
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav h2 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    header nav ul li {
+        list-style: none;
+        margin-right: 15px;
+    }
+    header nav ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .banner {
+        display: flex;
+        background-position: bottom left, bottom right;
+        background-size: contain, 550px;
+        padding: 20px 20px 0 40px;
+        flex-direction: column;
+    }
+    .banner .banner-content h3 {
+        font-size: 20px;
+    }
+    .banner .banner-content h2 {
+        font-size: 30px;
+    }
+    .banner .hardy-broh {
+        width: 70%;
+        vertical-align: bottom;
+    }
+    .main-container {
+        width: 100%;
+    }
+
+    .primary-btn {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
     .heading-2 {
         font-size: 25px;
     }
@@ -37,12 +86,135 @@
         margin-bottom: 15px;
         margin-right: 0px;
     }
+    section.main-container.my-resume {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .resume-items-container {
+        flex-direction: column;
+    }
+    .resume-item {
+        width: 100%;
+    }
+    .resume-item > h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    section.main-container.footer {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-left, .footer-right {
+        width: 100%;
+    }
+    .footer-right {
+        margin-top: 20px;
+    }
+    .footer-right form input, .footer-right form textarea {
+        width: 100%;
+    }
+
+    .footer-left h3, .footer-right h3 {
+        font-size: 25px;
+    }
+
+    
+
+
+
+
+
+
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    section.main-container.my-resume {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .resume-items-container {
+        flex-direction: column;
+    }
+    .resume-item {
+        width: 100% !important;
+    } 
+    .resume-item > h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .primary-btn {
+        padding: 8px 12px;
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+
+
 
 /* Tablat Devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px){
    
+    .primary-btn {
+        padding: 8px 12px;
+        font-size: 18px;
+    }
+
+    header {
+        width: 100%;
+        position: static;
+        padding: 10px;
+        background-color: #FFF8F3;
+    }
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav h2 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    header nav ul li {
+        list-style: none;
+        margin-right: 15px;
+    }
+    header nav ul li a {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .banner {
+        display: flex;
+        background-position: bottom left, bottom right;
+        background-size: contain, 550px;
+        padding: 20px 20px 0 40px;
+        flex-direction: column;
+    }
+    .banner .banner-content h3 {
+        font-size: 20px;
+    }
+    .banner .banner-content h2 {
+        font-size: 30px;
+    }
+    .banner .hardy-broh {
+        width: 40%;
+        vertical-align: bottom;
+    }
+    .main-container {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 100%;
+        padding: 0 20px;
+    }
     .about-me {
         width: 100%;
         padding: 10px;
@@ -76,5 +248,34 @@
         padding: 25px;
         margin-bottom: 0px;
         margin-right: 0px;
+    }
+
+    .resume-item {
+        width: 50%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+    section.main-container.footer {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .footer-left, .footer-right {
+        width: 50%;
+    }
+    .footer-right form input, .footer-right form textarea {
+        width: 100%;
+    }
+
+
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .main-container {
+        width: 100%;
+        padding: 0 20px;
     }
 }
