@@ -1,13 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header, .nav, .main, .sidebar, .advertise, .footer{
-    background-color: #ddd;
+    background-color: #33ff0091;
     border: 2px solid #000;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }
 .header{
     grid-area: header;
@@ -42,9 +43,10 @@
 @media screen and (min-width: 576px) and (max-width: 992px){
     .container{
         grid-template-areas: 
-        "header header nav"
-        "main sidebar advertise"
-        "footer footer footer"
+        "header header header"
+        "nav    nav    nav"
+        "sidebar main  main"
+        "advertise footer footer"
         ;
     }
 }
