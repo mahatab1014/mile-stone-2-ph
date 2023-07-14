@@ -1,0 +1,45 @@
+.hide{
+    display: none;
+}
+/* Mobile Devices */
+@media screen and (max-width: 576px){
+    section.main-container.my-services {
+        width: 100%;
+    }
+    .services-caption {
+        padding: 20px;
+    }
+    .services-items-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .services-item {
+        width: 100%;
+        padding: 30px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+}
+
+/* Tablat Devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    section.main-container.my-services {
+        width: 100%;
+    }
+    .services-caption {
+        padding: 20px;
+    }
+    .services-items-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        gap: 10px;
+    }
+    .services-item {
+        width: 49%;
+        padding: 25px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+}

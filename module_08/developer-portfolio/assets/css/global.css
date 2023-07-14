@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+span{
+    color: #FD6E0A;
+}
+.primary-btn{
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: 400ms;
+    border: none;
+}
+.primary-btn:hover,
+.primary-btn:active{
+    background: #ff0000;
+    color: #fff;
+    transition: 400ms;
+    border: none;
+}
+.primary-btn-2{
+    border-radius: 5px;
+    background: #fff;
+    color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: 400ms;
+    border: 2px solid #FD6E0A;
+}
+.primary-btn-2 span{
+    color: #FD6E0A !important;
+    transition: 400ms;
+}
+.primary-btn-2:hover span{
+    color: #ffffff !important;
+    transition: 400ms;
+}
+.primary-btn-2:hover,
+.primary-btn-2:active{
+    background: #FD6E0A;
+    color: #fff;
+    transition: 400ms;
+}
+.main-container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.primary-bg{
+    background-color: #FFF8F3;
+}
+.heading-2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.caption p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.caption{
+    margin-bottom: 30px;
+}
