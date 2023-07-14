@@ -3,6 +3,24 @@
 }
 /* Mobile Devices */
 @media screen and (max-width: 576px){
+    .heading-2 {
+        font-size: 25px;
+    }
+    section.main-container.about-me.primary-bg {
+        width: 100%;
+        margin-top: 0;
+        padding: 20px;
+    }
+    .about-info-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-info-container > .about-info {
+        padding: 10px;
+        flex: 0 0 49%;
+    }
+
     section.main-container.my-services {
         width: 100%;
     }
@@ -24,6 +42,23 @@
 /* Tablat Devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px){
+   
+    .about-me {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .about-info-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-info-container > .about-info {
+        padding: 10px;
+        flex: 0 0 49%;
+    }
+   
+
     section.main-container.my-services {
         width: 100%;
     }
