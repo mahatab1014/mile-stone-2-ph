@@ -48,6 +48,11 @@
         width: 100%;
     }
 
+    button.primary-btn-2 {
+        margin-top: 10px;
+        padding: 8px 12px;
+        font-size: 15px;
+    }
     .primary-btn {
         padding: 8px 12px;
         font-size: 15px;
@@ -161,6 +166,11 @@
 /* Tablat Devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px){
+
+    button.primary-btn-2 {
+        padding: 8px 12px;
+        font-size: 18px;
+    }
    
     .primary-btn {
         padding: 8px 12px;
