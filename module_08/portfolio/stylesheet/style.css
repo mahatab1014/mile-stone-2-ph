@@ -8,6 +8,13 @@
 span{
     color: #4900f59f;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+  
 .primary-btn{
     padding: 10px 25px;
     border-radius: 5px;
@@ -26,30 +33,54 @@ span{
     transition: 400ms;
     border: none;
 }
+.heading-2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.caption p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.caption{
+    margin-bottom: 30px;
+}
+
 #main-container{
     display: grid;
     grid-template-areas: 
     "header main main"
     "header main main"
-    "header footer footer"
-    ;
+    "header footer footer";
+    overflow-x: hidden;
 }
 
-.container{}
+main {
+    grid-area: main;
+    width: 90%;
+    margin-left: 10%;
+}
+/* GLOBAL CSS ENDING */
 
-header.container{
+
+
+header.nav-container{
     grid-area: header;
     background: #f7f9ff;
     text-align: center;
     padding: 10px;
-    position: sticky;
-    top: 10px;
+    box-shadow: 0px 10px 10px #00000031;
 }
 
 .logo h2{
     font-size: 2.5em;
 }
 .nav-item ul{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -59,18 +90,18 @@ header.container{
 }
 .nav-item > ul > li > a{
     display: inline-block;
-    width: 100px;
+    width: fit-content;
     padding: 10px;
-    font-size: 1.2em;
+    text-transform: uppercase;
+    font-size: 1em;
     font-weight: bold;
     border-radius: 10px;
     text-align: center;
     color: #272727;
     background-color: #dddddd9c;
 }
-
-main{
-    grid-area: main;
+.nav-item > ul > li > a:hover{
+    background-color: #dddddd;
 }
 
 #banner{
@@ -101,6 +132,132 @@ main{
     font-size: 1.2em;
 }
 
+.services-caption{
+    text-align: center;
+    padding: 100px 160px 30px 160px;
+    box-sizing: border-box;
+
+}
+.services-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.services-item{
+    width: 20%;
+    padding: 20px;
+    margin-right: 20px;
+    text-align: left;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px #0000000f;
+    transition: 400ms;
+}
+.services-item:hover{
+    box-shadow: 0px 6px 50px 0px #0000005c;
+    transition: 400ms;
+}
+.services-item h4{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.services-item p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* About ME */
+.about-me{
+    text-align: center;
+    padding: 50px 160px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.about-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-info-container > .about-info{
+    padding: 10px;
+}
+.about-info-container > .about-info > h4{
+    color: #757575;
+    font-weight: 400;
+}
+.about-info-container > .about-info > p{
+    color: #474747;
+    font-weight: 600;
+}
+/* Ending About ME CSS */
+
+
+/* My Resume */
+.resume-caption{
+    /* padding: 50px; */
+}
+.resume-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.resume-item{
+    width: 48%;
+    padding: 40px;
+}
+.education-info{
+    padding: 20px 20px 20px 0;
+    border-bottom: 2px solid #d1d1d1;
+    transition: 400ms;
+}
+.education-info:hover{
+    border-bottom: 2px solid #FD6E0A;
+    transition: 400ms;
+}
+.education-info:last-child,
+.education-info:last-child:hover{
+    border-bottom: none;
+}
+.resume-item > h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.edu-title{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.edu-title-bottom{
+    padding: 5px 0 10px 0;
+    color:#757575;
+    font-size: 13px;
+    font-weight: 600;
+}
+.edu-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.my-resume .cv-download{
+    padding: 20px 0;
+}
+.my-resume .cv-download,
+.my-resume .cv-download span{
+    text-align: center;
+    color: #fff;
+}
+/* Ending My Resume CSS */
 
 
 
@@ -108,10 +265,59 @@ main{
 
 
 
-
-
-
-/* Footer */
+/* Footer Start */
 footer{
+    background: #fff8f3;
     grid-area: footer;
+    padding: 100px 0 0 50px;
+    width: 90%;
+    margin-left: 10%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-left,
+.footer-right{
+    width: 48%;
+}
+
+.footer-left h3,
+.footer-right h3{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-left p{
+    padding: 20px 0;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footer-left > .social-icon > ul{
+    display: flex;
+}
+.footer-left > .social-icon > ul > li{
+    margin-right: 15px;
+    list-style: none;
+}
+.footer-left > .social-icon > ul > li > a{
+    color: #FD6E0A;
+    font-size: 30px;
+}
+
+.footer-right > h3{
+    margin-bottom: 20px;
+}
+.footer-right form input,
+.footer-right form textarea{
+    width: 400px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
 }

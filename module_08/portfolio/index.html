@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MahTab Hossain</title>
     <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/responsive.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9248/9248278.png" type="image/x-icon">
 
 </head>
 <body id="main-container">
 
 
-    <header class="container">
+    <header class="nav-container sticky" id="navbar">
         <div class="logo">
             <h2>Mah<span>Tab</span></h2>
         </div>
@@ -19,7 +20,10 @@
             <ul>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Hire ME</a></li>
+                <li><a href="#about-me">About ME</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#my-resume">My Resume</a></li>
+                <li><a target="_blank" href="https://fiverr.com/developermonuar">Hire ME</a></li>
             </ul>
         </nav>
     </header>
@@ -35,10 +39,144 @@
             </div>
         </section>
 
+        <section id="services" class="my-services">
+            <div class="services-caption caption">
+                <h2 class="heading-2">What I do</h2>
+                <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+            </div>
+
+            <div class="services-items-container">
+                <div class="services-item">
+                    <img src="../developer-portfolio/assets/images/icons/js.png" alt="JavaScript" class="services-icon">
+                    <h4 class="services-title">Vanilla JavaScript</h4>
+                    <p class="services-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="services-item">
+                    <img src="../developer-portfolio/assets/images/icons/react.png" alt="React js" class="services-icon">
+                    <h4 class="services-title">React</h4>
+                    <p class="services-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="services-item">
+                    <img src="../developer-portfolio/assets/images/icons/nodejs.png" alt="Node js" class="services-icon">
+                    <h4 class="services-title">Node.js</h4>
+                    <p class="services-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="services-item">
+                    <img src="../developer-portfolio/assets/images/icons/mongo.png" alt="MangoDB" class="services-icon">
+                    <h4 class="services-title">MangoDB</h4>
+                    <p class="services-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about-me" class="about-me primary-bg">
+            <div class="about-caption caption">
+                <h2 class="heading-2">About Me</h2>
+                <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            </div>
+            <div class="about-info-container">
+                <div class="about-info">
+                    <h4 class="info-title">Name:</h4>
+                    <p class="info-description">Mary Hardy</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Email:</h4>
+                    <p class="info-description"><a href="mailto:info@gmail.com">info@gmail.com</a></p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Date Of Birth:</h4>
+                    <p class="info-description">11 November, 1987</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Form:</h4>
+                    <p class="info-description">Los Angeles, USA</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="my-resume" id="my-resume">
+            <div class="resume-caption caption">
+                <h2 class="heading-2">A summary of My Resume</h2>
+            </div>
+            <div class="resume-items-container">
+                <div class="resume-item">
+                    <h3>My Education</h3>
+                    <div class="education-info">
+                        <h4 class="edu-title">Master In Computer Engineering</h4>
+                        <p class="edu-title-bottom">Harvard University / 2015 - 2017</p>
+                        <p class="edu-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="education-info">
+                        <h4 class="edu-title">Master In Computer Engineering</h4>
+                        <p class="edu-title-bottom">Harvard University / 2015 - 2017</p>
+                        <p class="edu-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="education-info">
+                        <h4 class="edu-title">Master In Computer Engineering</h4>
+                        <p class="edu-title-bottom">Harvard University / 2015 - 2017</p>
+                        <p class="edu-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+                <div class="resume-item">
+                    <h3>My Experience</h3>
+                    <div class="education-info">
+                        <h4 class="edu-title">Sr. Font End Developer</h4>
+                        <p class="edu-title-bottom">Apple Inc / 2020 - Current</p>
+                        <p class="edu-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="education-info">
+                        <h4 class="edu-title">Jr. Font End Developer</h4>
+                        <p class="edu-title-bottom">Dribbble Inc / 2018 - 2022</p>
+                        <p class="edu-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="education-info">
+                        <h4 class="edu-title">HTML Developer</h4>
+                        <p class="edu-title-bottom">Adobe Inc / 2017 - 2018</p>
+                        <p class="edu-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cv-download">
+                <button class="primary-btn"><span><i class="fa-solid fa-download"></i></span>
+                    Download CV
+                </button>
+            </div>
+        </section>
+
+
+
+
     </main>
 
 
-
+    <footer class="container">
+        <section class="footer">
+            <div class="footer-left">
+                <h3>Let's Connect</h3>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Let’s Message me</h3>
+                <form action="#">
+                    <input type="text" name="" id="" placeholder="Yourr Name">
+                    <input type="email" name="" id="" placeholder="Your email">
+                    <textarea placeholder="Message" name="" id="" cols="30" rows="3"></textarea>
+                    <button type="submit" class="primary-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <p style="text-align: center; padding: 40px;">&copy; Copyright 2023, All Right Reserved By <a href="https://mahtab.top">MahTab Hossain</a></p>
+    </footer>
 
 
 
