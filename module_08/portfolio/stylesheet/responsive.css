@@ -12,7 +12,6 @@
         "header header"
         "main main"
         "footer footer";
-        overflow-x: hidden;
     }
     .sticky {
         position: static;
@@ -96,5 +95,129 @@
     }
     footer > p{
         font-size: 0.8em;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .logo h2 {
+        font-size: 1.5em !important;
+    }
+} 
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .caption p {
+        padding: 5px 20px;
+    }
+    #main-container{
+        display: grid;
+        grid-template-areas: 
+        "header main"
+        "header main"
+        "header footer";
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 15%;
+    }
+    .logo h2 {
+        font-size: 2em;
+    }
+    .nav-item ul{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .nav-item > ul > li > a{
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    main, footer {
+        width: 85%;
+        margin-left: 15%;
+    }
+
+    #banner {
+        padding: 30px;
+    }
+    .banner-content {
+        padding: 20px;
+    }
+    #banner h2 {
+        font-size: 2.3em;
+    }
+
+    .services-caption {
+        padding: 20px;
+    }
+    .services-items-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+    .services-item{
+        width: 45%;
+    }
+    .about-me {
+        padding: 0;
+    }
+    .about-info-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .about-info{
+        flex: 0 0 50%;
+    }
+    .my-resume .heading-2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .resume-item > h3 {
+        font-size: 22px;
+    }
+    .resume-items-container {
+        flex-direction: column;
+    }
+    .resume-item {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    footer.container {
+        padding: 20px;
+    }
+    .footer-left, .footer-right {
+        width: 100%;
+    }
+    .footer-left h3, .footer-right h3 {
+        font-size: 25px;
+    }
+    .footer-right form input, .footer-right form textarea {
+        width: 100%;
+    }
+    footer > p{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    header#navbar {
+        box-sizing: content-box;
+        width: 10%;
+    }
+    header#navbar h2{
+        font-size: 2em;
+    }
+    main {
+        grid-area: main;
+        width: 90%;
+        margin-left: 12%;
     }
 }
