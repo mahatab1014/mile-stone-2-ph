@@ -1,0 +1,205 @@
+/* THIS CSS CODE FOR MOBILE DEVICES */
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 1.6rem !important;
+    }
+    .nav-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70vw;
+    }
+    h2.logo {
+        font-size: 1.5rem;
+    }
+    .nav-logo span {
+        font-size: 1.3rem;
+    }
+    header > .container nav {
+        box-shadow: 10px 5px 15px #0a020217;
+        position: absolute;
+        background: #fff;
+        top: 60px;
+        right: 10vw;
+        border-radius: 20px;
+    }
+    header > .container nav > ul {
+        flex-direction: column;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #nav-toggle:checked ~ #nav-bar{
+        display: inherit;
+    }
+    .nav-hamburger{
+        display: inherit;
+    }
+
+
+    .container {
+        padding: 10px 20px;
+    }
+    header > .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content {
+        padding: 0 20px;
+    }
+
+    
+    section#features > .container {
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .features-content {
+        width: 75vw;
+    }
+
+
+
+}
+
+/* THIS CODE FOR Medium DEVICES */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    h2 {
+        font-size: 2.5rem !important;
+    }
+    .nav-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70vw;
+    }
+    .nav-logo span {
+        font-size: 1.6rem;
+    }
+    header > .container nav {
+        position: absolute;
+        background: #fff;
+        top: 60px;
+        right: 10vw;
+        border-radius: 20px;
+        box-shadow: 10px 5px 15px #0a020217;
+    }
+    header > .container nav > ul {
+        flex-direction: column;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #nav-toggle:checked ~ #nav-bar{
+        display: inherit;
+    }
+    .nav-hamburger{
+        display: inherit;
+    }
+
+
+    .container {
+        padding: 10px 20px;
+    }
+    header > .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content {
+        padding: 0 20px;
+    }
+    .banner-content > h2 {
+        font-size: 2.4rem;
+    }
+
+
+    section#features > .container {
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+    .features-content {
+        width: 75vw;
+    }
+
+
+
+
+
+
+}
+
+
+/* THIS CODE FOR TABLATES DEVICES */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .nav-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70vw;
+    }
+    .nav-logo span {
+        font-size: 1.6rem;
+    }
+    header > .container nav {
+        position: absolute;
+        background: #fff;
+        box-shadow: 10px 5px 15px #0a020217;
+        top: 60px;
+        right: 10vw;
+        border-radius: 20px;
+    }
+    header > .container nav > ul {
+        flex-direction: column;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #nav-toggle:checked ~ #nav-bar{
+        display: inherit;
+    }
+    .nav-hamburger{
+        display: inherit;
+    }
+
+    
+    .container {
+        padding: 10px 50px;
+    }
+    header > .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content {
+        padding: 0 20px;
+    }
+    .banner-content > h2 {
+        font-size: 2.4rem;
+    }
+
+
+    section#features > .container {
+        padding: 30px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    .features-content {
+        width: 75vw;
+    }
+
+
+
+
+    
+
+
+}

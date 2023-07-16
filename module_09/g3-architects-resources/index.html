@@ -11,13 +11,20 @@
 
 </head>
 <body>
+
     
-    <header class="">
+    <header class="primary-bg">
         <div class="container">
-            <div class="">
+            <div class="nav-logo">
                 <h2 class="logo">G3 Architects</h2>
+                <label for="nav-toggle" class="nav-hamburger">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </label>
             </div>
-            <nav>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+            <nav id="nav-bar">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -25,11 +32,48 @@
                     <li><a href="#">Login</a></li>
                 </ul>
             </nav>
+            
+
+
+
+
         </div>
     </header>
 
     <main>
-        
+
+
+        <section id="banner" class="primary-bg container">
+
+            <div class="banner-content">
+                <h2>Brand New <br>Group Of Architects</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <a class="primary-btn" href="#">Explore More</a>
+            </div>
+
+            <div class="banner-images">
+                <img src="images/banner.png" alt="">
+            </div>
+
+        </section>
+
+
+        <section id="features">
+            <div class="container">
+                <div class="features-images">
+                    <img src="images/team1.png" alt="">
+                    <img src="images/team2.png" alt="">
+                    <img src="images/team3.png" alt="">
+                    <img src="images/team4.png" alt="">
+                </div>
+                <div class="features-content">
+                    <h2><span>Quick list</span> <span>of Our</span> <span>Features</span></h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <a class="primary-btn" href="#">Explore More</a>
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -44,5 +88,6 @@
 
 
 
+    <script src="https://kit.fontawesome.com/fbcff7765f.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -10,6 +10,16 @@ img{
     max-width: 100%;
 }
 .container{
-    width: 1200px;
-    margin: 0 auto;
+    padding: 10px 100px;
+}
+.primary-btn{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.primary-bg{
+    background: #fff4e7;
 }
