@@ -28,7 +28,8 @@ header > .container nav > ul > li > a{
 
 /* Ending HEADER CSS */
 
-#banner{
+section#banner{
+    max-width: 100%;
     padding-bottom: 50px;
 }
 .banner-content{
@@ -49,10 +50,9 @@ header > .container nav > ul > li > a{
 }
 .banner-images {
     margin-top: 50px;
+    text-align: center;
 }
-.banner-images img{
-    border-radius: 10px;
-}
+
 /* BANNER CSS END */
 
 section#features > .container{
@@ -76,9 +76,12 @@ section#features > .container{
     width: 50vw;
 }
 .features-content > h2 {
-    color: #727272;
+    color: #727272 !important;
     font-size: 2.7rem;
     font-weight: 500;
+}
+.features-content > h2 >span:nth-child(1) {
+    color: #727272 !important;
 }
 .features-content > h2 > span:nth-child(2){
     color: #131313;
@@ -94,4 +97,71 @@ section#features > .container{
     line-height: 1.3rem;
     padding: 30px 0;
 }
-.features-content > a.primary-btn{}
+/* Features Section END */
+
+#services{}
+#services > .container{
+    display: flex;
+    gap: 100px;
+}
+#services > .container > .services-list{
+    width: 600px;
+}
+#services > .container > .services-list > h2{
+    color:#131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 40px;
+}
+#services > .container > .services-list > p{
+    color:  #727272;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 1.5rem 0;
+}
+.services-list > .services-items-list{
+    list-style: none;
+}
+.services-list > .services-items-list > li{
+    padding: 1rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 15px;
+}
+.services-list > .services-items-list > li > h3{
+    color: #131313;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.services-list > .services-items-list > li > p{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.services-images {
+    width: 60%;
+}
+.services-images img{
+    max-height: 80%;
+}
+#year-experience {
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    left: -60px;
+    text-align: center;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+#year-experience > h3{
+    font-size: 2.8rem;
+}
+#year-experience > p{
+    font-size: 1rem;
+    font-weight: 400;
+}

@@ -9,6 +9,9 @@
 img{
     max-width: 100%;
 }
+span{
+    color: #FF900E;
+}
 .container{
     padding: 10px 100px;
 }
@@ -22,4 +25,8 @@ img{
 }
 .primary-bg{
     background: #fff4e7;
+}
+section{
+    max-width: 1400px;
+    margin: 0 auto;
 }
