@@ -1,0 +1,25 @@
+header{
+    background: #fff4e7;
+}
+header > .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+h2.logo{
+    font-size: 2.2rem;
+}
+header > .container nav{}
+header > .container nav > ul{
+    list-style: none;
+    display: flex;
+}
+header > .container nav > ul > li > a{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #424242;
+    font-weight: 500;
+}
