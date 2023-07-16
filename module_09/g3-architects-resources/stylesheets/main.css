@@ -165,3 +165,88 @@ section#features > .container{
     font-size: 1rem;
     font-weight: 400;
 }
+
+/* Sercices END */
+
+#some-facts .facts-caption > h2{
+    color: #131313;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+#some-facts .facts-caption> p{
+    width: 600px;
+    color: #727272;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.facts-items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.facts{
+    margin-top: 50px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 10px;
+    border: 1px solid #FF900E;
+    box-shadow: 2px 8px 15px #00000033;
+    cursor: pointer;
+}
+
+.facts > h4{
+    color: #424242;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.facts > p{
+    color:#727272;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Facts ENDING CSSS */
+
+
+#our-sponspors{
+    padding: 100px 0;
+}
+
+.sponspors-title{
+    text-align: center;
+}
+.sponspors-title h2{
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.sponspors-title p{
+    width: 600px;
+    margin: auto;
+    color: #727272;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 30px 0;
+}
+.sponspors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 20px;
+}
+.sponspors img{
+    filter: grayscale(1);
+    transition: 300ms;
+    cursor: pointer;
+}
+.sponspors img:hover{
+    filter: grayscale(0);
+    transition: 300ms;
+}
