@@ -250,3 +250,16 @@ section#features > .container{
     filter: grayscale(0);
     transition: 300ms;
 }
+
+/* Footer Start CSS */
+
+footer > .container > p{
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 20px;
+    margin-bottom: 50px;
+}

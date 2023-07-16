@@ -124,7 +124,11 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
     }
-
+    footer > .container > p {
+        font-size: 0.7rem;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 /* THIS CODE FOR Medium DEVICES */
@@ -229,6 +233,10 @@
     }
 
 
+    footer > .container > p {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -330,5 +338,9 @@
         gap: 30px;
     }
 
-
+    footer > .container > p {
+        font-size: 0.9rem;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
 }
