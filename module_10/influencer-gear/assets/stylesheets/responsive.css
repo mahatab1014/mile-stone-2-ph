@@ -14,15 +14,27 @@
     #banner .banner-content > h2 {
         font-size: 1.5rem;
     }
+    .product-list{
+        /* grid-template-columns: repeat(1, 1fr); */
+        gap: 20px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .container {
         padding: 30px 40px;
     }
+    .product-list {
+        gap: 25px;
+    }
+
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .product-list {
+        gap: 45px;
+    }
+}
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
     main{
@@ -86,5 +98,8 @@
         grid-template-columns: repeat(4, 1fr);
         justify-content: center;
         gap: 20px;
+    }
+    .product-list{
+        grid-template-columns: repeat(2, 1fr);
     }
 }

@@ -83,3 +83,57 @@
 .sponsor-list img{
     width: 100px;
 }
+
+#shop > .container{
+    flex-direction: column;
+}
+.shop-title{
+    text-align: center;
+    color: var(--gray-text);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.product-list{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 56px;
+}
+.product-list > .product-item{
+    padding: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.product-list > .product-item:hover{
+    transform: scale(1.03);
+}
+.product-list > .product-item > h2{
+    color: var(--product-title);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.product-list > .product-item > h4{
+    color: #000000de;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.product-list > .product-item > .product-rating{
+    padding: 10px 0;
+}
+.product-list > .product-item > .product-rating > span{
+    color: #FB8200;
+}
+.product-list > .product-item > p{
+    color: var(--product-info);
+    font-family: 'Inter', sans-serif;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.252px;
+}
