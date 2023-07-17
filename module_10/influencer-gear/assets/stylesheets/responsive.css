@@ -12,12 +12,33 @@
         top: 12vh !important;
     }
     #banner .banner-content > h2 {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
     .product-list{
         /* grid-template-columns: repeat(1, 1fr); */
         gap: 20px;
     }
+    .product-list > .product-item {
+        padding: 10px;
+    }
+    .product-list > .product-item > h2 {
+        font-size: 1.1rem;
+    }
+    .product-list > .product-item > h4 {
+        font-size: 1rem;
+    }
+    .product-list > .product-item > .product-rating > span {
+        font-size: 0.5rem;
+    }
+    #news-letter{
+        padding: 0;
+    }
+    .news-letter-join > h2 {
+        font-size: 1.5rem !important;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -101,5 +122,14 @@
     }
     .product-list{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .see-more{
+        text-align: center;
+    }
+    .news-letter-join{
+        text-align: center;
+    }
+    .news-letter-join > p{
+        width: 100%;
     }
 }
