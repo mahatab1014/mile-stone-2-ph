@@ -82,9 +82,6 @@
     .nav-hamburger{
         display: inherit;
     }
-    #nav-toggle:checked ~ #menu-item{
-        display: none;
-    }
     #menu-item {
         background-color: #f0eded;
         box-shadow: 5px 8px 10px #0000002d;
@@ -92,6 +89,10 @@
         position: absolute;
         top: 25vh;
         left: 10vw;
+        display: none;
+    }
+    #nav-toggle:checked ~ #menu-item{
+        display: block;
     }
     #menu-item ul {
         flex-direction: column;
