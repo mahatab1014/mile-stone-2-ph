@@ -11,6 +11,9 @@
     #menu-item {
         top: 12vh !important;
     }
+    #banner .banner-content > h2 {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -22,6 +25,9 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {}
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
+    main{
+        width: 100%;
+    }
     .container {
         flex-direction: column-reverse;
     }
@@ -60,5 +66,25 @@
     }
     #menu-item ul > li{
         border-bottom: 1px solid #ddd;
+    }
+    #menu-item ul > li:last-child{
+        border-bottom: none;
+    }
+    #banner .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+    #banner .banner-content > h2 {
+        font-size: 2.1rem;
+        font-weight: 700;
+        line-height: normal;
+    }
+    #sponsor .container > div {
+        width: 100%;
+    }
+    .sponsor-list{
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        gap: 20px;
     }
 }
