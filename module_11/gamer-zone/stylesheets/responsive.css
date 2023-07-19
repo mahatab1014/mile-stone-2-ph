@@ -1,0 +1,221 @@
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+    :root{
+        /* Font SIZE */
+        --text-3rem: 2rem;
+    }
+    .container{
+        padding: 10px 20px !important;
+    }
+    .primary-btn {
+        padding: 14px 20px;
+    }
+
+
+    #header > nav.container > .logo > img{
+        width: 20%;
+    }
+    #header > nav.container > .logo > h2 {
+        font-size: 1.8125rem;
+    }
+    #header > nav.container > .nav-menu-list {
+        flex-direction: column;
+        margin-top: 15px !important;
+    }
+
+    .banner-caption > h3 {
+        text-align: center;
+    }
+    .banner-caption > h2 {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    .banner-caption > ul > li {
+        font-size: 1rem;
+    }
+    .banner-button{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .gamer-caption > h3 {
+        font-size: 1.5rem;
+    }
+
+    .funny-games-video{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .games-video {
+        text-align: center;
+    }
+    .game-play-images > div {
+        bottom: -38px !important;
+        left: -21px !important;
+    }
+    #online-game-play-2nd .game-play-images-2nd > div {
+        bottom: -43px !important;
+        right: -18px !important;
+    }
+    .game-play-caption > h2 {
+        font-size: 1.8rem !important;
+    }
+    .games-list > .game-item{
+        flex: 0 0 48% !important;
+        padding: 2px !important;
+        margin-top: 4%;
+    }
+    #footer{
+        padding: 30px 0;
+    }
+    #footer > .container {
+        gap: 30px;
+    }
+    #footer .logo > img{
+        max-width: 50%;
+    }
+    #footer .logo > h2 {
+        padding-left: 10px;
+        font-size: 1.8125rem;
+    }
+    #footer .footer-social-icon > ul{
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    #footer .footer-social-icon > ul > li {
+        flex: 0 0 25% !important;
+    }
+    #footer .footer-social-icon > ul > li {
+        flex: 0 0 25% !important;
+        padding-top: 10px;
+    }
+    #footer .footer-menu > ul > li > a{
+        font-size: 0.9rem !important;
+    }
+    .copy-right p {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+}
+
+/* Mobile & Medium Large Devices */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    :root{
+        /* Font SIZE */
+        --text-3rem: 2.5rem;
+    }
+
+    #header > nav.container > .nav-menu-list{
+        flex-direction: column;
+    }
+    #online-game-play-2nd .game-play-images-2nd > div {
+        bottom: -44px !important;
+        right: -38px !important;
+    }
+    .games-list > .game-item{
+        flex: 0 0 31% !important;
+        padding: 3px !important;
+    }
+}
+
+/* Tablat Devices */
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .container{
+        flex-direction: column;
+        padding: inherit 50px;
+    }
+    #header > nav.container > .nav-menu-list {
+        margin-top: 15px !important;
+    }
+    #banner > div.container{
+        flex-direction: column-reverse;
+    }
+    .banner-images{
+        text-align: center;
+    }
+    .gamer-caption {
+        text-align: center;
+        width: auto;
+    }
+    .funny-games-video{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .game-play-caption {
+        width: auto;
+    }
+    .game-play-caption > h2,
+    .game-play-caption > p,
+    #online-game-play-2nd .game-play-caption > h2,
+    #online-game-play-2nd .game-play-caption > p {
+        text-align: center;
+    }
+    .game-play-images {
+        width: auto;
+        text-align: right;
+    }
+   .game-play-images-2nd {
+        width: auto;
+        text-align: left;
+    }
+    .game-play-images > div {
+        bottom: -65px;
+        left: -45px;
+    }
+    #online-game-play-2nd div.container{
+        flex-direction: column-reverse;
+    }
+    #online-game-play-2nd .game-play-images-2nd > div {
+        bottom: -68px;
+        right: -57px;
+    }
+
+    .games-list > .game-item{
+        flex: 0 0 23%;
+        padding: 3px;
+    }
+    .games-list > .game-item > p {
+        font-size: 0.8rem;
+    }
+    #footer > .container > div{
+        text-align: center;
+    }
+    #footer .footer-menu > ul{
+        justify-content: center;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    #footer .footer-menu > ul > li{
+        flex: 0 0 33%;
+        margin-top: 20px;
+    }
+    #footer .footer-menu.another-footer-menu > ul > li{
+        flex: 0 0 50%;
+        margin-top: 20px;
+    }
+
+}
+
+/* Laptop Or < 1366px Display */
+@media screen and (min-width: 992px) and (max-width: 1100px){
+    
+    :root{
+        /* Font SIZE */
+        --text-3rem: 2.8rem;
+    }
+
+    #header > nav.container > .logo > h2 {
+        font-size: 2.1rem;
+    }
+    #header > nav.container > .nav-menu-list > li:last-child > span {
+        padding: 5px 5px;
+    }
+    .gamer-caption {
+        width: 55vw;
+    }
+    .game-play-caption > h2 {
+        font-size: 2.5rem;
+    }
+    .games-list > .game-item > p {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,27 @@
+@keyframes banner-text {
+    0%{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(0px);
+        background: linear-gradient(-180deg, #00000081 0%, #f15858 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+    100%{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
