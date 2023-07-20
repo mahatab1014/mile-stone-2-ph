@@ -36,6 +36,9 @@ img{
 span{
     color: var(--span-color);
 }
+main{
+    margin-top: 93px;
+}
 .container{
     padding: 40px 100px;
     max-width: 1400px;

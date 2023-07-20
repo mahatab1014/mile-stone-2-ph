@@ -1,5 +1,10 @@
-#header{
+#header {
+    background: #fff;
     box-shadow: 2px 5px 10px #0000000e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 }
 #header > nav.container{
     justify-content: space-between;
@@ -231,6 +236,7 @@ footer .logo > h2{
     padding-top: 10px;
 }
 /* END FUNNY VIDEO SECTION */
+
 #online-game-play{
     padding: 50px 0;
 }
@@ -270,7 +276,9 @@ footer .logo > h2{
     bottom: -68px;
     left: -38px;
 }
-
+.second-poster{
+    animation: second-poster 2500ms linear infinite;
+}
 #online-game-play-2nd{
     padding-top: 100px;
 }

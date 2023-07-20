@@ -120,12 +120,25 @@
 
 /* Tablat Devices */
 @media screen and (min-width: 0px) and (max-width: 992px) {
+    #header {
+        background: #fff;
+        box-shadow: 2px 5px 10px #0000000e;
+        position: inherit;
+        width: inherit;
+    }
+    main{
+        margin-top: 0;
+    }
     .container{
         flex-direction: column;
         padding: inherit 50px;
     }
     #header > nav.container > .nav-menu-list {
         margin-top: 15px !important;
+    }
+    #banner {
+        background-position: bottom center;
+        padding-bottom: 30px;
     }
     #banner > div.container{
         flex-direction: column-reverse;
